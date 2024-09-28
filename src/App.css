@@ -1,5 +1,31 @@
-.App {
+.div-form{
+  width: 100%;
+  display: flex;
+  justify-content:  center;
+}
+.container-form {
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color:  #5d5f63;
+  padding: 20px;
+}
+
+.loading {
   text-align: center;
+  font-size: 40px;
+  color: rgb(98, 146, 235);
+}
+
+.error {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(92, 17, 17);
+
+}
+
+.App {
+  text-align:start;
 }
 
 .App-logo {
@@ -22,11 +48,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+ padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
